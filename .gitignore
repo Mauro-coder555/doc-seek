@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Local data
+data/*.json
+
+# Keep folder structure
+!data/.gitkeep
+
+# Documents
+documents/*
+!documents/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
